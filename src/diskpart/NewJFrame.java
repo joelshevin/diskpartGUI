@@ -5,6 +5,7 @@
  */
 package diskpart;
 
+import java.awt.Color;
 import java.awt.Desktop;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -49,7 +50,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jProgressBar5 = new javax.swing.JProgressBar();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -60,7 +61,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jProgressBar6 = new javax.swing.JProgressBar();
         jLabel18 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
@@ -109,7 +110,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jProgressBar4.setBackground(new java.awt.Color(204, 204, 204));
         jProgressBar4.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
         jProgressBar4.setForeground(new java.awt.Color(0, 204, 0));
-        jProgressBar4.setToolTipText("Shows current disc usage.");
+        jProgressBar4.setToolTipText("Shows current partition usage.");
         jProgressBar4.setValue(60);
         jProgressBar4.setBorderPainted(false);
         jProgressBar4.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
@@ -130,9 +131,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel9.setText("File system : NTFS");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 30, -1, 20));
 
+        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel10.setText("Partition 1: C");
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 30, 80, 20));
 
+        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel11.setText("Partition 2: D");
         jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 110, 80, 20));
 
@@ -142,7 +145,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jProgressBar5.setBackground(new java.awt.Color(204, 204, 204));
         jProgressBar5.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
         jProgressBar5.setForeground(new java.awt.Color(0, 204, 0));
-        jProgressBar5.setToolTipText("Shows current disc usage.");
+        jProgressBar5.setToolTipText("Shows current partition usage.");
         jProgressBar5.setValue(75);
         jProgressBar5.setBorderPainted(false);
         jProgressBar5.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
@@ -160,18 +163,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel14.setText("Status : Healthy");
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 120, -1, 30));
 
-        jButton2.setBackground(new java.awt.Color(0, 204, 0));
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Manage DIsk");
-        jButton2.setBorder(null);
-        jButton2.setContentAreaFilled(false);
-        jButton2.setOpaque(true);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 170, 100, 30));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/managedsk.png"))); // NOI18N
+        jButton3.setBorderPainted(false);
+        jButton3.setContentAreaFilled(false);
+        jButton3.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mngdksprsd.png"))); // NOI18N
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, -1, -1));
 
         jPanel2.setBackground(new java.awt.Color(102, 204, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -201,6 +197,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel6.setText("Status : Online");
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, -1, -1));
 
+        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel15.setText("Partition 1: F");
         jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 30, 80, 20));
 
@@ -228,13 +225,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/business.png"))); // NOI18N
         jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 10, 60, 60));
 
-        jButton1.setBackground(new java.awt.Color(0, 204, 0));
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Manage DIsk");
-        jButton1.setBorder(null);
-        jButton1.setContentAreaFilled(false);
-        jButton1.setOpaque(true);
-        jPanel2.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 100, 100, 30));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/managedsk.png"))); // NOI18N
+        jButton2.setBorderPainted(false);
+        jButton2.setContentAreaFilled(false);
+        jButton2.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/mngdksprsd.png"))); // NOI18N
+        jPanel2.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 90, -1, -1));
 
         jMenuBar1.setBackground(new java.awt.Color(0, 153, 255));
 
@@ -316,10 +311,6 @@ public class NewJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
-
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem3ActionPerformed
@@ -334,10 +325,8 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
                 
-         
         yourProcess();
-                  
-   
+
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     /**
@@ -417,8 +406,8 @@ public class NewJFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
