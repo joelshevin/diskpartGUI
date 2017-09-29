@@ -39,18 +39,22 @@ public class ManageDIsk extends javax.swing.JFrame {
         jProgressBar3 = new javax.swing.JProgressBar();
         jProgressBar4 = new javax.swing.JProgressBar();
         jLabel8 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jProgressBar5 = new javax.swing.JProgressBar();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem5 = new javax.swing.JMenuItem();
@@ -78,18 +82,19 @@ public class ManageDIsk extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Status : Online");
+        jLabel5.setToolTipText("Status of Disk. Online or Offline");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, -1, -1));
 
         jProgressBar3.setBackground(new java.awt.Color(204, 204, 204));
         jProgressBar3.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
-        jProgressBar3.setForeground(new java.awt.Color(0, 204, 0));
+        jProgressBar3.setForeground(new java.awt.Color(204, 204, 0));
         jProgressBar3.setToolTipText("Shows current disc usage.");
         jProgressBar3.setValue(50);
         jProgressBar3.setBorderPainted(false);
         jProgressBar3.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         jProgressBar3.setString("250 GB free of 500 GB");
         jProgressBar3.setStringPainted(true);
-        jPanel1.add(jProgressBar3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 220, 20));
+        jPanel1.add(jProgressBar3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 470, 20));
 
         jProgressBar4.setBackground(new java.awt.Color(204, 204, 204));
         jProgressBar4.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
@@ -100,31 +105,31 @@ public class ManageDIsk extends javax.swing.JFrame {
         jProgressBar4.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         jProgressBar4.setString("200 GB free of 300 GB");
         jProgressBar4.setStringPainted(true);
-        jPanel1.add(jProgressBar4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 230, 170, -1));
+        jPanel1.add(jProgressBar4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 170, -1));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/business.png"))); // NOI18N
-        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 230, 60, 60));
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 60, 60));
+
+        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setText("Primary Partition");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 220, -1, 30));
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Status : Healthy");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, -1, 30));
-
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("File system : NTFS");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 280, -1, 20));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 190, -1, 30));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel10.setText("Partition 1: C");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 80, 20));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 80, 20));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel11.setText("Partition 2: D");
-        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, 80, 20));
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 80, 20));
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/business.png"))); // NOI18N
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 400, 60, 60));
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 280, 60, 60));
 
         jProgressBar5.setBackground(new java.awt.Color(204, 204, 204));
         jProgressBar5.setFont(new java.awt.Font("Arial", 1, 11)); // NOI18N
@@ -135,30 +140,59 @@ public class ManageDIsk extends javax.swing.JFrame {
         jProgressBar5.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
         jProgressBar5.setString("50 GB free of 200 GB");
         jProgressBar5.setStringPainted(true);
-        jPanel1.add(jProgressBar5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 400, 170, -1));
+        jPanel1.add(jProgressBar5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 290, 170, -1));
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("File system : NTFS");
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 420, -1, 20));
-
-        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel14.setText("Status : Healthy");
-        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 440, -1, 30));
-
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_new-partition.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_wipe.png"))); // NOI18N
+        jButton3.setToolTipText("Wipe the disk.");
         jButton3.setBorderPainted(false);
         jButton3.setContentAreaFilled(false);
-        jButton3.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_new-partitionpressed.png"))); // NOI18N
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, -1, -1));
+        jButton3.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_wipepressed.png"))); // NOI18N
+        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 100, 120, -1));
+
+        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel15.setText("File system : NTFS");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, -1, 20));
+
+        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel16.setText("Status : Healthy");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 300, -1, 30));
+
+        jLabel17.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("Primary Partition");
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 330, -1, 30));
+
+        jLabel18.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel18.setText("File system : NTFS");
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 320, -1, 20));
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_add-partition.png"))); // NOI18N
+        jButton4.setToolTipText("Add a new partition to disk.");
+        jButton4.setBorderPainted(false);
+        jButton4.setContentAreaFilled(false);
+        jButton4.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_add-partitionpressed.png"))); // NOI18N
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 120, -1));
+
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_optimize.png"))); // NOI18N
+        jButton5.setToolTipText("Optimize the disk");
+        jButton5.setBorderPainted(false);
+        jButton5.setContentAreaFilled(false);
+        jButton5.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_optimizepressed.png"))); // NOI18N
+        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 100, 120, -1));
+
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_check-errors.png"))); // NOI18N
+        jButton6.setToolTipText("Check disk for Errors.");
+        jButton6.setBorderPainted(false);
+        jButton6.setContentAreaFilled(false);
+        jButton6.setPressedIcon(new javax.swing.ImageIcon(getClass().getResource("/images/button_check-errorspressed.png"))); // NOI18N
+        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 100, 120, -1));
 
         jMenuBar1.setBackground(new java.awt.Color(0, 153, 255));
 
         jMenu1.setText("File");
-
-        jMenuItem2.setText("Run Advanced Task");
-        jMenu1.add(jMenuItem2);
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.ALT_MASK));
         jMenuItem1.setText("Exit");
@@ -211,15 +245,15 @@ public class ManageDIsk extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 825, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 612, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(10, 10, 10)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 539, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 390, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -286,7 +320,7 @@ public class ManageDIsk extends javax.swing.JFrame {
         try {
              Runtime rt = Runtime.getRuntime();
              // Process pr = rt.exec("cmd /c dir");
-             Process pr = rt.exec("C:\\Windows\\System32\\cmd.exe");
+             Process pr = rt.exec("cmd /c diskpart");
 
              BufferedReader input = new BufferedReader(new InputStreamReader(pr.getInputStream()));
 
@@ -307,12 +341,17 @@ public class ManageDIsk extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
@@ -323,7 +362,6 @@ public class ManageDIsk extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
