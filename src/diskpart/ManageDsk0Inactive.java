@@ -21,12 +21,12 @@ import javax.imageio.ImageIO;
  *
  * @author Joel
  */
-public class ManageDsk extends javax.swing.JFrame {
+public class ManageDsk0Inactive extends javax.swing.JFrame {
 
     /**
      * Creates new form NewJFrame
      */
-    public ManageDsk() throws IOException {
+    public ManageDsk0Inactive() throws IOException {
         
     
         initComponents();
@@ -42,6 +42,17 @@ public class ManageDsk extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jDialog1 = new javax.swing.JDialog();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jDialog2 = new javax.swing.JDialog();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -67,6 +78,100 @@ public class ManageDsk extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
+
+        jDialog1.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        jDialog1.setTitle("Confirm");
+        jDialog1.setAlwaysOnTop(true);
+        jDialog1.setLocation(new java.awt.Point(500, 150));
+        jDialog1.setMinimumSize(new java.awt.Dimension(391, 150));
+        jDialog1.setResizable(false);
+        jDialog1.setSize(new java.awt.Dimension(391, 129));
+        jDialog1.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setFont(new java.awt.Font("Microsoft YaHei Light", 0, 14)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Are you sure you want to set as active ?");
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, -1, -1));
+
+        jButton11.setBackground(new java.awt.Color(199, 224, 224));
+        jButton11.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
+        jButton11.setText("Yes");
+        jButton11.setToolTipText("");
+        jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jButton11.setBorderPainted(false);
+        jButton11.setFocusable(false);
+        jButton11.setOpaque(false);
+        jButton11.setRequestFocusEnabled(false);
+        jButton11.setRolloverEnabled(false);
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 130, 30));
+
+        jButton12.setBackground(new java.awt.Color(199, 224, 224));
+        jButton12.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
+        jButton12.setText("No");
+        jButton12.setToolTipText("");
+        jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jButton12.setBorderPainted(false);
+        jButton12.setFocusable(false);
+        jButton12.setOpaque(false);
+        jButton12.setRequestFocusEnabled(false);
+        jButton12.setRolloverEnabled(false);
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, 130, 30));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Warning Shield Filled-50.png"))); // NOI18N
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 50, 50));
+
+        jDialog1.getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 390, 130));
+
+        jDialog2.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        jDialog2.setTitle("Done");
+        jDialog2.setAlwaysOnTop(true);
+        jDialog2.setLocation(new java.awt.Point(500, 150));
+        jDialog2.setResizable(false);
+        jDialog2.setSize(new java.awt.Dimension(350, 130));
+        jDialog2.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel4.setBackground(new java.awt.Color(153, 153, 153));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setFont(new java.awt.Font("Microsoft YaHei Light", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3.setText("Disk successfully set as active");
+        jPanel4.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, -1, -1));
+
+        jButton16.setBackground(new java.awt.Color(199, 224, 224));
+        jButton16.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
+        jButton16.setText("OK");
+        jButton16.setToolTipText("");
+        jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jButton16.setBorderPainted(false);
+        jButton16.setFocusable(false);
+        jButton16.setOpaque(false);
+        jButton16.setRequestFocusEnabled(false);
+        jButton16.setRolloverEnabled(false);
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        jPanel4.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, 130, 30));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Checkmark Filled-50.png"))); // NOI18N
+        jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 50, 50));
+
+        jDialog2.getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 130));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Diskpart");
@@ -152,13 +257,12 @@ public class ManageDsk extends javax.swing.JFrame {
 
         jLabel9.setFont(new java.awt.Font("Microsoft YaHei Light", 0, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Status: Online");
+        jLabel9.setText("Status: Offline");
         jPanel1.add(jLabel9);
         jLabel9.setBounds(110, 50, 110, 20);
 
         jButton2.setBackground(new java.awt.Color(199, 224, 224));
         jButton2.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Check Errors");
         jButton2.setToolTipText("");
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -172,7 +276,7 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton2);
-        jButton2.setBounds(560, 80, 130, 30);
+        jButton2.setBounds(390, 80, 90, 30);
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Pie Chart-50.png"))); // NOI18N
         jPanel1.add(jLabel11);
@@ -211,7 +315,6 @@ public class ManageDsk extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(199, 224, 224));
         jButton3.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Change Letter");
         jButton3.setToolTipText("");
         jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -225,12 +328,11 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton3);
-        jButton3.setBounds(550, 330, 130, 30);
+        jButton3.setBounds(400, 330, 130, 30);
 
         jButton4.setBackground(new java.awt.Color(199, 224, 224));
         jButton4.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Back-50.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Back Filled-50.png"))); // NOI18N
         jButton4.setText("Back");
         jButton4.setToolTipText("");
         jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -244,11 +346,10 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton4);
-        jButton4.setBounds(660, 450, 100, 60);
+        jButton4.setBounds(640, 460, 130, 60);
 
         jButton5.setBackground(new java.awt.Color(199, 224, 224));
         jButton5.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Optimize");
         jButton5.setToolTipText("");
         jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -262,11 +363,10 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton5);
-        jButton5.setBounds(410, 80, 130, 30);
+        jButton5.setBounds(300, 80, 80, 30);
 
         jButton6.setBackground(new java.awt.Color(199, 224, 224));
         jButton6.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Wipe");
         jButton6.setToolTipText("");
         jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -280,7 +380,7 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton6);
-        jButton6.setBounds(260, 80, 130, 30);
+        jButton6.setBounds(220, 80, 70, 30);
 
         jLabel19.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
@@ -296,7 +396,6 @@ public class ManageDsk extends javax.swing.JFrame {
 
         jButton7.setBackground(new java.awt.Color(199, 224, 224));
         jButton7.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("New Parition");
         jButton7.setToolTipText("");
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -310,11 +409,10 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton7);
-        jButton7.setBounds(110, 80, 130, 30);
+        jButton7.setBounds(110, 80, 100, 30);
 
         jButton8.setBackground(new java.awt.Color(199, 224, 224));
         jButton8.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(255, 255, 255));
         jButton8.setText("Format");
         jButton8.setToolTipText("");
         jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -332,7 +430,6 @@ public class ManageDsk extends javax.swing.JFrame {
 
         jButton9.setBackground(new java.awt.Color(199, 224, 224));
         jButton9.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(255, 255, 255));
         jButton9.setText("Shrink/Extend");
         jButton9.setToolTipText("");
         jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
@@ -350,8 +447,7 @@ public class ManageDsk extends javax.swing.JFrame {
 
         jButton10.setBackground(new java.awt.Color(199, 224, 224));
         jButton10.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setText("Set As Inactive");
+        jButton10.setText("Set As Active");
         jButton10.setToolTipText("");
         jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton10.setBorderPainted(false);
@@ -364,7 +460,7 @@ public class ManageDsk extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton10);
-        jButton10.setBounds(400, 330, 130, 30);
+        jButton10.setBounds(490, 80, 110, 30);
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 780, 530));
 
@@ -432,9 +528,13 @@ public class ManageDsk extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        NewJFrame jf = new NewJFrame();
-        this.dispose();
-        jf.setVisible(true);
+       try {
+            NewPartition0 new0 = new NewPartition0();
+            this.dispose();
+            new0.setVisible(true);
+        } catch (IOException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -446,8 +546,29 @@ public class ManageDsk extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
+        jDialog1.setVisible(true);
+       
     }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        jDialog1.dispose();
+        jDialog2.setVisible(true);
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        jDialog1.dispose();
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        jDialog2.dispose();
+        try {
+            ManageDsk0 Dsk0 = new ManageDsk0();
+            this.dispose();
+            Dsk0.setVisible(true);
+        } catch (IOException ex) {
+            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }//GEN-LAST:event_jButton16ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -458,22 +579,23 @@ public class ManageDsk extends javax.swing.JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        /*try {
+        try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("Windows".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManageDsk0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManageDsk0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ManageDsk0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(NewJFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }*/
+            java.util.logging.Logger.getLogger(ManageDsk0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
@@ -482,9 +604,9 @@ public class ManageDsk extends javax.swing.JFrame {
                 sleepThread();
                  
                 try {
-                    new ManageDsk().setVisible(true);
+                    new ManageDsk0Inactive().setVisible(true);
                 } catch (IOException ex) {
-                    Logger.getLogger(ManageDsk.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(ManageDsk0Inactive.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         });
@@ -517,6 +639,9 @@ public class ManageDsk extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -525,20 +650,28 @@ public class ManageDsk extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JDialog jDialog1;
+    private javax.swing.JDialog jDialog2;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JProgressBar jProgressBar2;
     private javax.swing.JProgressBar jProgressBar3;
     // End of variables declaration//GEN-END:variables
