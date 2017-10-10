@@ -103,7 +103,6 @@ public class ManageDsk0Inactive extends javax.swing.JFrame {
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton11.setBorderPainted(false);
         jButton11.setFocusable(false);
-        jButton11.setOpaque(false);
         jButton11.setRequestFocusEnabled(false);
         jButton11.setRolloverEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -120,7 +119,6 @@ public class ManageDsk0Inactive extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton12.setBorderPainted(false);
         jButton12.setFocusable(false);
-        jButton12.setOpaque(false);
         jButton12.setRequestFocusEnabled(false);
         jButton12.setRolloverEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -158,7 +156,6 @@ public class ManageDsk0Inactive extends javax.swing.JFrame {
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton16.setBorderPainted(false);
         jButton16.setFocusable(false);
-        jButton16.setOpaque(false);
         jButton16.setRequestFocusEnabled(false);
         jButton16.setRolloverEnabled(false);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -511,7 +508,7 @@ public class ManageDsk0Inactive extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
          try {
-            Main main = new Main();
+            MainInactive main = new MainInactive();
             this.dispose();
             main.setVisible(true);
         } catch (IOException ex) {
@@ -581,7 +578,7 @@ public class ManageDsk0Inactive extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }

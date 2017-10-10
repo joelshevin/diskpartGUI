@@ -257,7 +257,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton4.setBorderPainted(false);
         jButton4.setFocusable(false);
-        jButton4.setOpaque(false);
         jButton4.setRequestFocusEnabled(false);
         jButton4.setRolloverEnabled(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -275,7 +274,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton7.setBorderPainted(false);
         jButton7.setFocusable(false);
-        jButton7.setOpaque(false);
         jButton7.setRequestFocusEnabled(false);
         jButton7.setRolloverEnabled(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -293,7 +291,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton6.setBorderPainted(false);
         jButton6.setFocusable(false);
-        jButton6.setOpaque(false);
         jButton6.setRequestFocusEnabled(false);
         jButton6.setRolloverEnabled(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -311,7 +308,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton5.setBorderPainted(false);
         jButton5.setFocusable(false);
-        jButton5.setOpaque(false);
         jButton5.setRequestFocusEnabled(false);
         jButton5.setRolloverEnabled(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -329,7 +325,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton2.setBorderPainted(false);
         jButton2.setFocusable(false);
-        jButton2.setOpaque(false);
         jButton2.setRequestFocusEnabled(false);
         jButton2.setRolloverEnabled(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -347,7 +342,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton10.setBorderPainted(false);
         jButton10.setFocusable(false);
-        jButton10.setOpaque(false);
         jButton10.setRequestFocusEnabled(false);
         jButton10.setRolloverEnabled(false);
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -365,7 +359,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton8.setBorderPainted(false);
         jButton8.setFocusable(false);
-        jButton8.setOpaque(false);
         jButton8.setRequestFocusEnabled(false);
         jButton8.setRolloverEnabled(false);
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -383,7 +376,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton9.setBorderPainted(false);
         jButton9.setFocusable(false);
-        jButton9.setOpaque(false);
         jButton9.setRequestFocusEnabled(false);
         jButton9.setRolloverEnabled(false);
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -401,7 +393,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton3.setBorderPainted(false);
         jButton3.setFocusable(false);
-        jButton3.setOpaque(false);
         jButton3.setRequestFocusEnabled(false);
         jButton3.setRolloverEnabled(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -419,7 +410,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton11.setBorderPainted(false);
         jButton11.setFocusable(false);
-        jButton11.setOpaque(false);
         jButton11.setRequestFocusEnabled(false);
         jButton11.setRolloverEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -437,7 +427,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton12.setBorderPainted(false);
         jButton12.setFocusable(false);
-        jButton12.setOpaque(false);
         jButton12.setRequestFocusEnabled(false);
         jButton12.setRolloverEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -455,7 +444,6 @@ public class ManageDsk1 extends javax.swing.JFrame {
         jButton13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton13.setBorderPainted(false);
         jButton13.setFocusable(false);
-        jButton13.setOpaque(false);
         jButton13.setRequestFocusEnabled(false);
         jButton13.setRolloverEnabled(false);
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -576,7 +564,7 @@ public class ManageDsk1 extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }

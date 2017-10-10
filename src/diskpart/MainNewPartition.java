@@ -42,7 +42,6 @@ public class MainNewPartition extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton9 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -89,22 +88,6 @@ public class MainNewPartition extends javax.swing.JFrame {
         jLabel30 = new javax.swing.JLabel();
         jProgressBar8 = new javax.swing.JProgressBar();
         jLabel31 = new javax.swing.JLabel();
-
-        jButton9.setBackground(new java.awt.Color(199, 224, 224));
-        jButton9.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
-        jButton9.setText("Manage Disk");
-        jButton9.setToolTipText("");
-        jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
-        jButton9.setBorderPainted(false);
-        jButton9.setFocusable(false);
-        jButton9.setOpaque(false);
-        jButton9.setRequestFocusEnabled(false);
-        jButton9.setRolloverEnabled(false);
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Diskpart");
@@ -382,7 +365,6 @@ public class MainNewPartition extends javax.swing.JFrame {
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton7.setBorderPainted(false);
         jButton7.setFocusable(false);
-        jButton7.setOpaque(false);
         jButton7.setRequestFocusEnabled(false);
         jButton7.setRolloverEnabled(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -400,7 +382,6 @@ public class MainNewPartition extends javax.swing.JFrame {
         jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton8.setBorderPainted(false);
         jButton8.setFocusable(false);
-        jButton8.setOpaque(false);
         jButton8.setRequestFocusEnabled(false);
         jButton8.setRolloverEnabled(false);
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -418,7 +399,6 @@ public class MainNewPartition extends javax.swing.JFrame {
         jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton10.setBorderPainted(false);
         jButton10.setFocusable(false);
-        jButton10.setOpaque(false);
         jButton10.setRequestFocusEnabled(false);
         jButton10.setRolloverEnabled(false);
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -517,10 +497,6 @@ public class MainNewPartition extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
-
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         try {
             ManageDsk1 mgdsk1 = new ManageDsk1();
@@ -542,7 +518,7 @@ public class MainNewPartition extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -602,7 +578,6 @@ public class MainNewPartition extends javax.swing.JFrame {
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

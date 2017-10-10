@@ -130,7 +130,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton11.setBorderPainted(false);
         jButton11.setFocusable(false);
-        jButton11.setOpaque(false);
         jButton11.setRequestFocusEnabled(false);
         jButton11.setRolloverEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -147,7 +146,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton12.setBorderPainted(false);
         jButton12.setFocusable(false);
-        jButton12.setOpaque(false);
         jButton12.setRequestFocusEnabled(false);
         jButton12.setRolloverEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -166,9 +164,10 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jDialog2.setTitle("Confirm");
         jDialog2.setAlwaysOnTop(true);
         jDialog2.setLocation(new java.awt.Point(500, 150));
-        jDialog2.setMinimumSize(new java.awt.Dimension(350, 130));
+        jDialog2.setMinimumSize(new java.awt.Dimension(350, 155));
+        jDialog2.setPreferredSize(new java.awt.Dimension(350, 155));
         jDialog2.setResizable(false);
-        jDialog2.setSize(new java.awt.Dimension(350, 130));
+        jDialog2.setSize(new java.awt.Dimension(350, 155));
         jDialog2.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel4.setBackground(new java.awt.Color(153, 153, 153));
@@ -188,7 +187,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton16.setBorderPainted(false);
         jButton16.setFocusable(false);
-        jButton16.setOpaque(false);
         jButton16.setRequestFocusEnabled(false);
         jButton16.setRolloverEnabled(false);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -229,7 +227,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton17.setBorderPainted(false);
         jButton17.setFocusable(false);
-        jButton17.setOpaque(false);
         jButton17.setRequestFocusEnabled(false);
         jButton17.setRolloverEnabled(false);
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -254,7 +251,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton18.setBorderPainted(false);
         jButton18.setFocusable(false);
-        jButton18.setOpaque(false);
         jButton18.setRequestFocusEnabled(false);
         jButton18.setRolloverEnabled(false);
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -271,7 +267,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jDialog4.setAlwaysOnTop(true);
         jDialog4.setLocation(new java.awt.Point(500, 155));
         jDialog4.setMinimumSize(new java.awt.Dimension(390, 155));
-        jDialog4.setPreferredSize(new java.awt.Dimension(390, 155));
         jDialog4.setResizable(false);
         jDialog4.setSize(new java.awt.Dimension(390, 150));
         jDialog4.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -295,8 +290,10 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jDialog5.setTitle("Done");
         jDialog5.setAlwaysOnTop(true);
         jDialog5.setLocation(new java.awt.Point(500, 150));
+        jDialog5.setMinimumSize(new java.awt.Dimension(350, 155));
+        jDialog5.setPreferredSize(new java.awt.Dimension(350, 155));
         jDialog5.setResizable(false);
-        jDialog5.setSize(new java.awt.Dimension(350, 130));
+        jDialog5.setSize(new java.awt.Dimension(350, 155));
         jDialog5.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel7.setBackground(new java.awt.Color(153, 153, 153));
@@ -314,7 +311,6 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
         jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton19.setBorderPainted(false);
         jButton19.setFocusable(false);
-        jButton19.setOpaque(false);
         jButton19.setRequestFocusEnabled(false);
         jButton19.setRolloverEnabled(false);
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -873,7 +869,7 @@ public class ManageDsk0NewPartition extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }

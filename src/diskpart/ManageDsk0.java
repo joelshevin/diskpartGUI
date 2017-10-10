@@ -125,7 +125,6 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton11.setBorderPainted(false);
         jButton11.setFocusable(false);
-        jButton11.setOpaque(false);
         jButton11.setRequestFocusEnabled(false);
         jButton11.setRolloverEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -142,7 +141,6 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton12.setBorderPainted(false);
         jButton12.setFocusable(false);
-        jButton12.setOpaque(false);
         jButton12.setRequestFocusEnabled(false);
         jButton12.setRolloverEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -161,8 +159,10 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jDialog2.setTitle("Done");
         jDialog2.setAlwaysOnTop(true);
         jDialog2.setLocation(new java.awt.Point(500, 150));
+        jDialog2.setMinimumSize(new java.awt.Dimension(350, 155));
+        jDialog2.setPreferredSize(new java.awt.Dimension(350, 155));
         jDialog2.setResizable(false);
-        jDialog2.setSize(new java.awt.Dimension(350, 130));
+        jDialog2.setSize(new java.awt.Dimension(350, 155));
         jDialog2.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel4.setBackground(new java.awt.Color(153, 153, 153));
@@ -180,7 +180,6 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton16.setBorderPainted(false);
         jButton16.setFocusable(false);
-        jButton16.setOpaque(false);
         jButton16.setRequestFocusEnabled(false);
         jButton16.setRolloverEnabled(false);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -193,14 +192,13 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Checkmark Filled-50.png"))); // NOI18N
         jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 50, 50));
 
-        jDialog2.getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 130));
+        jDialog2.getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 160));
 
         jDialog3.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         jDialog3.setTitle("Confirm");
         jDialog3.setAlwaysOnTop(true);
         jDialog3.setLocation(new java.awt.Point(500, 150));
         jDialog3.setMinimumSize(new java.awt.Dimension(480, 170));
-        jDialog3.setPreferredSize(new java.awt.Dimension(480, 180));
         jDialog3.setResizable(false);
         jDialog3.setSize(new java.awt.Dimension(480, 180));
         jDialog3.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -222,7 +220,6 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton17.setBorderPainted(false);
         jButton17.setFocusable(false);
-        jButton17.setOpaque(false);
         jButton17.setRequestFocusEnabled(false);
         jButton17.setRolloverEnabled(false);
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -247,7 +244,6 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton18.setBorderPainted(false);
         jButton18.setFocusable(false);
-        jButton18.setOpaque(false);
         jButton18.setRequestFocusEnabled(false);
         jButton18.setRolloverEnabled(false);
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -288,8 +284,10 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jDialog5.setTitle("Done");
         jDialog5.setAlwaysOnTop(true);
         jDialog5.setLocation(new java.awt.Point(500, 150));
+        jDialog5.setMinimumSize(new java.awt.Dimension(350, 155));
+        jDialog5.setPreferredSize(new java.awt.Dimension(350, 155));
         jDialog5.setResizable(false);
-        jDialog5.setSize(new java.awt.Dimension(350, 130));
+        jDialog5.setSize(new java.awt.Dimension(350, 155));
         jDialog5.getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel7.setBackground(new java.awt.Color(153, 153, 153));
@@ -307,7 +305,6 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton19.setBorderPainted(false);
         jButton19.setFocusable(false);
-        jButton19.setOpaque(false);
         jButton19.setRequestFocusEnabled(false);
         jButton19.setRolloverEnabled(false);
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -320,7 +317,7 @@ public class ManageDsk0 extends javax.swing.JFrame {
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Checkmark Filled-50.png"))); // NOI18N
         jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 50, 50));
 
-        jDialog5.getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 130));
+        jDialog5.getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 160));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Diskpart");
@@ -766,7 +763,7 @@ public class ManageDsk0 extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }

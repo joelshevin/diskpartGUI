@@ -115,7 +115,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton11.setBorderPainted(false);
         jButton11.setFocusable(false);
-        jButton11.setOpaque(false);
         jButton11.setRequestFocusEnabled(false);
         jButton11.setRolloverEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -132,7 +131,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton12.setBorderPainted(false);
         jButton12.setFocusable(false);
-        jButton12.setOpaque(false);
         jButton12.setRequestFocusEnabled(false);
         jButton12.setRolloverEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -170,7 +168,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton16.setBorderPainted(false);
         jButton16.setFocusable(false);
-        jButton16.setOpaque(false);
         jButton16.setRequestFocusEnabled(false);
         jButton16.setRolloverEnabled(false);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -211,7 +208,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton17.setBorderPainted(false);
         jButton17.setFocusable(false);
-        jButton17.setOpaque(false);
         jButton17.setRequestFocusEnabled(false);
         jButton17.setRolloverEnabled(false);
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -236,7 +232,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton18.setBorderPainted(false);
         jButton18.setFocusable(false);
-        jButton18.setOpaque(false);
         jButton18.setRequestFocusEnabled(false);
         jButton18.setRolloverEnabled(false);
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -295,7 +290,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton19.setBorderPainted(false);
         jButton19.setFocusable(false);
-        jButton19.setOpaque(false);
         jButton19.setRequestFocusEnabled(false);
         jButton19.setRolloverEnabled(false);
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -396,7 +390,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton2.setBorderPainted(false);
         jButton2.setFocusable(false);
-        jButton2.setOpaque(false);
         jButton2.setRequestFocusEnabled(false);
         jButton2.setRolloverEnabled(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -427,7 +420,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton4.setBorderPainted(false);
         jButton4.setFocusable(false);
-        jButton4.setOpaque(false);
         jButton4.setRequestFocusEnabled(false);
         jButton4.setRolloverEnabled(false);
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -445,7 +437,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton5.setBorderPainted(false);
         jButton5.setFocusable(false);
-        jButton5.setOpaque(false);
         jButton5.setRequestFocusEnabled(false);
         jButton5.setRolloverEnabled(false);
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -463,7 +454,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton6.setBorderPainted(false);
         jButton6.setFocusable(false);
-        jButton6.setOpaque(false);
         jButton6.setRequestFocusEnabled(false);
         jButton6.setRolloverEnabled(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -481,7 +471,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton7.setBorderPainted(false);
         jButton7.setFocusable(false);
-        jButton7.setOpaque(false);
         jButton7.setRequestFocusEnabled(false);
         jButton7.setRolloverEnabled(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -499,7 +488,6 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
         jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton10.setBorderPainted(false);
         jButton10.setFocusable(false);
-        jButton10.setOpaque(false);
         jButton10.setRequestFocusEnabled(false);
         jButton10.setRolloverEnabled(false);
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -645,7 +633,7 @@ public class ManageDsk0Wiped extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }

@@ -77,6 +77,8 @@ public class NewPartition0 extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jLabel21 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox<>();
+        jLabel22 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox<>();
 
         jDialog1.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         jDialog1.setTitle("Confirm");
@@ -101,7 +103,6 @@ public class NewPartition0 extends javax.swing.JFrame {
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton11.setBorderPainted(false);
         jButton11.setFocusable(false);
-        jButton11.setOpaque(false);
         jButton11.setRequestFocusEnabled(false);
         jButton11.setRolloverEnabled(false);
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -118,7 +119,6 @@ public class NewPartition0 extends javax.swing.JFrame {
         jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton12.setBorderPainted(false);
         jButton12.setFocusable(false);
-        jButton12.setOpaque(false);
         jButton12.setRequestFocusEnabled(false);
         jButton12.setRolloverEnabled(false);
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -156,7 +156,6 @@ public class NewPartition0 extends javax.swing.JFrame {
         jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
         jButton16.setBorderPainted(false);
         jButton16.setFocusable(false);
-        jButton16.setOpaque(false);
         jButton16.setRequestFocusEnabled(false);
         jButton16.setRolloverEnabled(false);
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -279,7 +278,7 @@ public class NewPartition0 extends javax.swing.JFrame {
 
         jLabel19.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setText("Partition Type:");
+        jLabel19.setText("File system:");
         jPanel1.add(jLabel19);
         jLabel19.setBounds(20, 300, 220, 30);
 
@@ -310,9 +309,9 @@ public class NewPartition0 extends javax.swing.JFrame {
         jPanel1.add(jLabel20);
         jLabel20.setBounds(20, 160, 220, 17);
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Primary", "Logical" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "NTFS", "FAT32", "exFAT" }));
         jPanel1.add(jComboBox1);
-        jComboBox1.setBounds(180, 310, 200, 20);
+        jComboBox1.setBounds(180, 300, 200, 20);
 
         jButton2.setBackground(new java.awt.Color(199, 224, 224));
         jButton2.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
@@ -357,6 +356,16 @@ public class NewPartition0 extends javax.swing.JFrame {
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "W", "X", "Y", "Z" }));
         jPanel1.add(jComboBox2);
         jComboBox2.setBounds(180, 240, 35, 20);
+
+        jLabel22.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel22.setText("Partition Type:");
+        jPanel1.add(jLabel22);
+        jLabel22.setBounds(20, 260, 220, 40);
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Primary", "Logical" }));
+        jPanel1.add(jComboBox3);
+        jComboBox3.setBounds(180, 270, 200, 20);
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 780, 530));
 
@@ -448,7 +457,7 @@ public class NewPartition0 extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Windows".equals(info.getName())) {
+                if ("Metal".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
@@ -510,6 +519,7 @@ public class NewPartition0 extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JDialog jDialog1;
     private javax.swing.JDialog jDialog2;
     private javax.swing.JLabel jLabel1;
@@ -521,6 +531,7 @@ public class NewPartition0 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
