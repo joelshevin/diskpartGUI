@@ -21,12 +21,12 @@ import javax.imageio.ImageIO;
  *
  * @author Joel
  */
-public class Main extends javax.swing.JFrame {
+public class MainDrive0Newpartition extends javax.swing.JFrame {
 
     /**
      * Creates new form NewJFrame
      */
-    public Main() throws IOException {
+    public MainDrive0Newpartition() throws IOException {
         
     
         initComponents();
@@ -72,6 +72,9 @@ public class Main extends javax.swing.JFrame {
         jLabel14 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jProgressBar6 = new javax.swing.JProgressBar();
+        jLabel22 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Diskpart");
@@ -153,7 +156,7 @@ public class Main extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Microsoft YaHei Light", 0, 14)); // NOI18N
         jLabel1.setText("Status: Online");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(110, 230, 110, 20);
+        jLabel1.setBounds(110, 280, 110, 20);
 
         jProgressBar1.setBackground(new java.awt.Color(153, 153, 153));
         jProgressBar1.setForeground(new java.awt.Color(204, 51, 0));
@@ -162,15 +165,15 @@ public class Main extends javax.swing.JFrame {
         jProgressBar1.setString("75 GB free of 250 GB");
         jProgressBar1.setStringPainted(true);
         jPanel1.add(jProgressBar1);
-        jProgressBar1.setBounds(110, 210, 330, 17);
+        jProgressBar1.setBounds(110, 260, 330, 17);
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 15)); // NOI18N
         jLabel3.setText("Drive 1");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 160, 51, 20);
+        jLabel3.setBounds(10, 210, 51, 20);
         jPanel1.add(jSeparator1);
-        jSeparator1.setBounds(20, 360, 750, 10);
+        jSeparator1.setBounds(20, 410, 750, 10);
 
         jLabel8.setBackground(new java.awt.Color(255, 255, 255));
         jLabel8.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 15)); // NOI18N
@@ -192,12 +195,12 @@ public class Main extends javax.swing.JFrame {
         jPanel1.add(jLabel9);
         jLabel9.setBounds(110, 70, 110, 20);
         jPanel1.add(jSeparator2);
-        jSeparator2.setBounds(20, 150, 750, 2);
+        jSeparator2.setBounds(20, 200, 750, 2);
 
         jLabel15.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
         jLabel15.setText("Partitions");
         jPanel1.add(jLabel15);
-        jLabel15.setBounds(500, 190, 100, 30);
+        jLabel15.setBounds(500, 240, 100, 30);
 
         jProgressBar3.setBackground(new java.awt.Color(153, 153, 153));
         jProgressBar3.setForeground(new java.awt.Color(0, 102, 204));
@@ -224,9 +227,9 @@ public class Main extends javax.swing.JFrame {
         jLabel16.setBounds(500, 20, 100, 30);
 
         jLabel20.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 14)); // NOI18N
-        jLabel20.setText("D:");
+        jLabel20.setText("E:");
         jPanel1.add(jLabel20);
-        jLabel20.setBounds(500, 220, 20, 20);
+        jLabel20.setBounds(500, 270, 20, 20);
 
         jProgressBar4.setBackground(new java.awt.Color(153, 153, 153));
         jProgressBar4.setForeground(new java.awt.Color(0, 102, 204));
@@ -236,17 +239,17 @@ public class Main extends javax.swing.JFrame {
         jProgressBar4.setString("50 GB free of 100 GB");
         jProgressBar4.setStringPainted(true);
         jPanel1.add(jProgressBar4);
-        jProgressBar4.setBounds(500, 240, 200, 17);
+        jProgressBar4.setBounds(500, 290, 200, 17);
 
         jLabel21.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
         jLabel21.setText("File system: NTFS");
         jPanel1.add(jLabel21);
-        jLabel21.setBounds(500, 260, 170, 20);
+        jLabel21.setBounds(500, 310, 170, 20);
 
         jLabel23.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 14)); // NOI18N
         jLabel23.setText("F:");
         jPanel1.add(jLabel23);
-        jLabel23.setBounds(500, 290, 20, 20);
+        jLabel23.setBounds(500, 340, 20, 20);
 
         jProgressBar5.setBackground(new java.awt.Color(153, 153, 153));
         jProgressBar5.setForeground(new java.awt.Color(204, 51, 0));
@@ -256,12 +259,12 @@ public class Main extends javax.swing.JFrame {
         jProgressBar5.setString("25 GB free of 100 GB");
         jProgressBar5.setStringPainted(true);
         jPanel1.add(jProgressBar5);
-        jProgressBar5.setBounds(500, 310, 200, 17);
+        jProgressBar5.setBounds(500, 360, 200, 17);
 
         jLabel24.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
         jLabel24.setText("File system: NTFS");
         jPanel1.add(jLabel24);
-        jLabel24.setBounds(500, 330, 170, 20);
+        jLabel24.setBounds(500, 380, 170, 20);
 
         jButton8.setBackground(new java.awt.Color(0, 102, 204));
         jButton8.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 12)); // NOI18N
@@ -295,7 +298,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton10);
-        jButton10.setBounds(20, 320, 130, 30);
+        jButton10.setBounds(20, 370, 130, 30);
 
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/rsz_dplogo.png"))); // NOI18N
@@ -308,7 +311,25 @@ public class Main extends javax.swing.JFrame {
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-HDD-50 (1).png"))); // NOI18N
         jPanel1.add(jLabel12);
-        jLabel12.setBounds(40, 200, 90, 60);
+        jLabel12.setBounds(40, 250, 90, 60);
+
+        jLabel19.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 14)); // NOI18N
+        jLabel19.setText("D:");
+        jPanel1.add(jLabel19);
+        jLabel19.setBounds(500, 120, 20, 20);
+
+        jProgressBar6.setBackground(new java.awt.Color(153, 153, 153));
+        jProgressBar6.setForeground(new java.awt.Color(0, 102, 204));
+        jProgressBar6.setBorderPainted(false);
+        jProgressBar6.setString("250 GB free of 250 GB");
+        jProgressBar6.setStringPainted(true);
+        jPanel1.add(jProgressBar6);
+        jProgressBar6.setBounds(500, 140, 200, 17);
+
+        jLabel22.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        jLabel22.setText("File system: NTFS");
+        jPanel1.add(jLabel22);
+        jLabel22.setBounds(500, 160, 170, 20);
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 780, 530));
 
@@ -317,11 +338,11 @@ public class Main extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         try {
-            drive0 drive0 = new drive0();
+            drive0Newpartition drive0 = new drive0Newpartition();
             this.dispose();
             drive0.setVisible(true);
         } catch (IOException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(MainDrive0Newpartition.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
@@ -384,14 +405,15 @@ public class Main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Newpartition.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Newpartition.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Newpartition.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Newpartition.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
@@ -400,9 +422,9 @@ public class Main extends javax.swing.JFrame {
                 sleepThread();
                  
                 try {
-                    new Main().setVisible(true);
+                    new MainDrive0Newpartition().setVisible(true);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(MainDrive0Newpartition.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         });
@@ -444,8 +466,10 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel3;
@@ -462,6 +486,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JProgressBar jProgressBar3;
     private javax.swing.JProgressBar jProgressBar4;
     private javax.swing.JProgressBar jProgressBar5;
+    private javax.swing.JProgressBar jProgressBar6;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     // End of variables declaration//GEN-END:variables

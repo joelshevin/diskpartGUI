@@ -21,12 +21,12 @@ import javax.imageio.ImageIO;
  *
  * @author Joel
  */
-public class Main extends javax.swing.JFrame {
+public class MainDrive0Inactive extends javax.swing.JFrame {
 
     /**
      * Creates new form NewJFrame
      */
-    public Main() throws IOException {
+    public MainDrive0Inactive() throws IOException {
         
     
         initComponents();
@@ -111,7 +111,7 @@ public class Main extends javax.swing.JFrame {
         });
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-Home-26.png"))); // NOI18N
-        jLabel7.setToolTipText("Home");
+        jLabel7.setToolTipText("Run Advanced task");
         jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel7MouseClicked(evt);
@@ -188,7 +188,7 @@ public class Main extends javax.swing.JFrame {
         jProgressBar2.setBounds(500, 70, 200, 17);
 
         jLabel9.setFont(new java.awt.Font("Microsoft YaHei Light", 0, 14)); // NOI18N
-        jLabel9.setText("Status: Online");
+        jLabel9.setText("Status: Offline");
         jPanel1.add(jLabel9);
         jLabel9.setBounds(110, 70, 110, 20);
         jPanel1.add(jSeparator2);
@@ -224,7 +224,7 @@ public class Main extends javax.swing.JFrame {
         jLabel16.setBounds(500, 20, 100, 30);
 
         jLabel20.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 14)); // NOI18N
-        jLabel20.setText("D:");
+        jLabel20.setText("E:");
         jPanel1.add(jLabel20);
         jLabel20.setBounds(500, 220, 20, 20);
 
@@ -295,7 +295,7 @@ public class Main extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton10);
-        jButton10.setBounds(20, 320, 130, 30);
+        jButton10.setBounds(20, 270, 130, 30);
 
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/rsz_dplogo.png"))); // NOI18N
@@ -321,12 +321,12 @@ public class Main extends javax.swing.JFrame {
             this.dispose();
             drive0.setVisible(true);
         } catch (IOException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(MainDrive0Inactive.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        
+       
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
@@ -364,7 +364,7 @@ public class Main extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel6MouseClicked
 
     private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
-      
+        // TODO add your handling code here:
     }//GEN-LAST:event_jLabel7MouseClicked
 
     /**
@@ -384,14 +384,15 @@ public class Main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainDrive0Inactive.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
@@ -400,9 +401,9 @@ public class Main extends javax.swing.JFrame {
                 sleepThread();
                  
                 try {
-                    new Main().setVisible(true);
+                    new MainDrive0Inactive().setVisible(true);
                 } catch (IOException ex) {
-                    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+                    Logger.getLogger(MainDrive0Inactive.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
         });
